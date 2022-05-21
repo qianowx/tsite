@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 657px;
+    width: 100%;
+    background-image: url(./img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.logo{
+    background-image: url(./img/logo.svg);
+    height: 23px;
+    width: 101.62px;
+    background-repeat: no-repeat;
+    position:absolute;
+    top: 41px;
+    left: 630px;
+}
+.header h1{
+    position: absolute;
+    top: 317px;
+    left: 380px;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5.70937px;
+}
+.header p{
+    position: absolute;
+    top: 376px;
+    left: 530px;
+    color: white;
+    font-size: 15px;
+}
+.header h5{
+    position: absolute;
+    top: 619px;
+    left: 630px;
+    color: white;
+    font-size: 15px;
+}
+.navbar{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 24px;
+}
+.log{
+    background-image: url(./img/logo\ black.svg);
+    height: 18px;
+    width: 80px;
+    background-repeat: no-repeat;
+}
+.menu ul{
+    display: flex;
+    width: 411px;
+    justify-content: space-between;
+    list-style: none;
+    cursor: pointer;
+}
+li:hover{
+    color: red;
+    transition: 0.5s;
+}
+.founded{
+width: 300px;
+font-size: 20px;
+padding-bottom: 30px;
+}
+.blue{
+    color: aqua;
+}
+.lorem{
+width: 405.08px;
+height: 80px;
+}
+.frau{
+    display: flex;
+    justify-content:space-around;
+}
+.about h2{
+    padding-bottom: 90px;
+    text-align: center;
+    position: relative;
+}
+.about h2::before{
+content:"";
+position: absolute;
+width: 50px;
+height: 2px;
+background-color: #00A4E5;
+top: 40px;
+left: 652px;
+
+}
+.about h5{
+letter-spacing: 0.1875px;
+}
+.text{
+padding-top: 50px;
+}
+.services h3{
+    display: flex;
+    width: 136px;
+    justify-content: space-between;
+    list-style: none;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+
+}
+h3:hover{
+    background-color: #00A4E5;
+    color: white;
+    transition: 0.5s;
+}
+.alls{
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.services{
+    padding-top: 50px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+.project{
+    width: 333px;
+}
+.structure{
+    width: 333px;
+}
+.factory{
+    width: 333px;
+}
+.services h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.alls h2{
+    text-align: left;
+    position: relative;
+}
+.alls h2::before{
+    content:"";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #00A4E5;
+    top: 50px;
+}
+.get h1{
+    position: absolute;
+    top: 100px;
+    left: 505px;
+}
+.touch{
+    position: absolute;
+    top: 160px;
+    left: 584px;
+    width: 136px;
+    list-style: none;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    background-color: #00A4E5;
+    color: white;
+    text-align: center;
+}
+.get{
+    position: relative;
+    height: 500px;
+}
+.get img{
+    width: 100%;
+    height: 100%;
+}
+.newsletter{
+    background-color: #171819;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.newsletter h2{
+    color: beige;
+}
+.testy{
+    color: gray;
+}
+.newsletter input{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.newsletter button{
+    width: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    background-color:#00A4E5;
+    margin-left: -20px;
+    border: none;
+}
+.footer{
+    background-color: #141A20;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.footer h5{
+    padding-bottom: 10px;
+    color: #FFFFFF;
+}
+.lor{
+    color: #FFFFFF;
+}
+.company{
+    width: 250px;
+}
+.links{
+    width: 250px;
+    color: #FFFFFF;
+    height: 100px;
+    display: flex;
+    
+}
+.contactus{
+    color: #FFFFFF;
+    height: 100px;
+    margin-left: -25px;
+}
+.footer li{
+    list-style: none;
+    margin-top: 8px;
+}
+.socials{
+    margin-left: -100px;
+    padding-bottom: 30px;
+}
+.lks{
+    margin-left: -20px;
+}
+.nks{
+    margin-left: -20px;
+    padding-bottom: 10px;
+}
+.nml{
+    margin-left: 28px;
+}
+.nmk{
+    margin-left: 40px;
+}
+.blm{
+    margin-left: -1px;
+    padding-bottom: 11px;
+}
+.design{
+    background-color: #171819;
+    height: 100%;
+}
+.designet{
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 528px;
+}
